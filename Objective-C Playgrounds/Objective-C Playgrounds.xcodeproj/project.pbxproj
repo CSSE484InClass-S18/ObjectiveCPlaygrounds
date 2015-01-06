@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD80E2771A5C2D8F00287CA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD80E2761A5C2D8F00287CA9 /* main.m */; };
+		FD80E27A1A5C2D8F00287CA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD80E2791A5C2D8F00287CA9 /* AppDelegate.m */; };
+		FD80E27D1A5C2D8F00287CA9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD80E27C1A5C2D8F00287CA9 /* ViewController.m */; };
+		FD80E2801A5C2D8F00287CA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD80E27E1A5C2D8F00287CA9 /* Main.storyboard */; };
+		FD80E2821A5C2D8F00287CA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD80E2811A5C2D8F00287CA9 /* Images.xcassets */; };
+		FD80E2851A5C2D8F00287CA9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD80E2831A5C2D8F00287CA9 /* LaunchScreen.xib */; };
+		FD80E2911A5C2D8F00287CA9 /* Objective_C_PlaygroundsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD80E2901A5C2D8F00287CA9 /* Objective_C_PlaygroundsTests.m */; };
+		FD80E29E1A5C2DC900287CA9 /* Variables.m in Sources */ = {isa = PBXBuildFile; fileRef = FD80E29D1A5C2DC900287CA9 /* Variables.m */; };
+		FD80E2A11A5C2DD700287CA9 /* Collections.m in Sources */ = {isa = PBXBuildFile; fileRef = FD80E2A01A5C2DD700287CA9 /* Collections.m */; };
+		FD80E2A41A5C2DE800287CA9 /* Functions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD80E2A31A5C2DE800287CA9 /* Functions.m */; };
+		FD80E2AD1A5C42CC00287CA9 /* Classes.m in Sources */ = {isa = PBXBuildFile; fileRef = FD80E2AC1A5C42CC00287CA9 /* Classes.m */; };
+		FD80E2B31A5C470500287CA9 /* Enums.m in Sources */ = {isa = PBXBuildFile; fileRef = FD80E2B21A5C470500287CA9 /* Enums.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD80E28B1A5C2D8F00287CA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD80E2691A5C2D8F00287CA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD80E2701A5C2D8F00287CA9;
+			remoteInfo = "Objective-C Playgrounds";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD80E2711A5C2D8F00287CA9 /* Objective-C Playgrounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objective-C Playgrounds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD80E2751A5C2D8F00287CA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD80E2761A5C2D8F00287CA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD80E2781A5C2D8F00287CA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD80E2791A5C2D8F00287CA9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD80E27B1A5C2D8F00287CA9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FD80E27C1A5C2D8F00287CA9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD80E27F1A5C2D8F00287CA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD80E2811A5C2D8F00287CA9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FD80E2841A5C2D8F00287CA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FD80E28A1A5C2D8F00287CA9 /* Objective-C PlaygroundsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Objective-C PlaygroundsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD80E28F1A5C2D8F00287CA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD80E2901A5C2D8F00287CA9 /* Objective_C_PlaygroundsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Objective_C_PlaygroundsTests.m; sourceTree = "<group>"; };
+		FD80E29C1A5C2DC900287CA9 /* Variables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Variables.h; sourceTree = "<group>"; };
+		FD80E29D1A5C2DC900287CA9 /* Variables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Variables.m; sourceTree = "<group>"; };
+		FD80E29F1A5C2DD700287CA9 /* Collections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Collections.h; sourceTree = "<group>"; };
+		FD80E2A01A5C2DD700287CA9 /* Collections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Collections.m; sourceTree = "<group>"; };
+		FD80E2A21A5C2DE800287CA9 /* Functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Functions.h; sourceTree = "<group>"; };
+		FD80E2A31A5C2DE800287CA9 /* Functions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Functions.m; sourceTree = "<group>"; };
+		FD80E2AB1A5C42CC00287CA9 /* Classes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Classes.h; sourceTree = "<group>"; };
+		FD80E2AC1A5C42CC00287CA9 /* Classes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Classes.m; sourceTree = "<group>"; };
+		FD80E2B11A5C470500287CA9 /* Enums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enums.h; sourceTree = "<group>"; };
+		FD80E2B21A5C470500287CA9 /* Enums.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Enums.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD80E26E1A5C2D8F00287CA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD80E2871A5C2D8F00287CA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD80E2681A5C2D8F00287CA9 = {
+			isa = PBXGroup;
+			children = (
+				FD80E2731A5C2D8F00287CA9 /* Objective-C Playgrounds */,
+				FD80E28D1A5C2D8F00287CA9 /* Objective-C PlaygroundsTests */,
+				FD80E2721A5C2D8F00287CA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD80E2721A5C2D8F00287CA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD80E2711A5C2D8F00287CA9 /* Objective-C Playgrounds.app */,
+				FD80E28A1A5C2D8F00287CA9 /* Objective-C PlaygroundsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD80E2731A5C2D8F00287CA9 /* Objective-C Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				FD80E29B1A5C2DB300287CA9 /* Classes */,
+				FD80E29A1A5C2DA100287CA9 /* Playground Files */,
+				FD80E2781A5C2D8F00287CA9 /* AppDelegate.h */,
+				FD80E2791A5C2D8F00287CA9 /* AppDelegate.m */,
+				FD80E27B1A5C2D8F00287CA9 /* ViewController.h */,
+				FD80E27C1A5C2D8F00287CA9 /* ViewController.m */,
+				FD80E27E1A5C2D8F00287CA9 /* Main.storyboard */,
+				FD80E2811A5C2D8F00287CA9 /* Images.xcassets */,
+				FD80E2831A5C2D8F00287CA9 /* LaunchScreen.xib */,
+				FD80E2741A5C2D8F00287CA9 /* Supporting Files */,
+			);
+			path = "Objective-C Playgrounds";
+			sourceTree = "<group>";
+		};
+		FD80E2741A5C2D8F00287CA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD80E2751A5C2D8F00287CA9 /* Info.plist */,
+				FD80E2761A5C2D8F00287CA9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD80E28D1A5C2D8F00287CA9 /* Objective-C PlaygroundsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD80E2901A5C2D8F00287CA9 /* Objective_C_PlaygroundsTests.m */,
+				FD80E28E1A5C2D8F00287CA9 /* Supporting Files */,
+			);
+			path = "Objective-C PlaygroundsTests";
+			sourceTree = "<group>";
+		};
+		FD80E28E1A5C2D8F00287CA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD80E28F1A5C2D8F00287CA9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD80E29A1A5C2DA100287CA9 /* Playground Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD80E2AB1A5C42CC00287CA9 /* Classes.h */,
+				FD80E2AC1A5C42CC00287CA9 /* Classes.m */,
+				FD80E29F1A5C2DD700287CA9 /* Collections.h */,
+				FD80E2A01A5C2DD700287CA9 /* Collections.m */,
+				FD80E2B11A5C470500287CA9 /* Enums.h */,
+				FD80E2B21A5C470500287CA9 /* Enums.m */,
+				FD80E2A21A5C2DE800287CA9 /* Functions.h */,
+				FD80E2A31A5C2DE800287CA9 /* Functions.m */,
+				FD80E29C1A5C2DC900287CA9 /* Variables.h */,
+				FD80E29D1A5C2DC900287CA9 /* Variables.m */,
+			);
+			name = "Playground Files";
+			sourceTree = "<group>";
+		};
+		FD80E29B1A5C2DB300287CA9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD80E2701A5C2D8F00287CA9 /* Objective-C Playgrounds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD80E2941A5C2D8F00287CA9 /* Build configuration list for PBXNativeTarget "Objective-C Playgrounds" */;
+			buildPhases = (
+				FD80E26D1A5C2D8F00287CA9 /* Sources */,
+				FD80E26E1A5C2D8F00287CA9 /* Frameworks */,
+				FD80E26F1A5C2D8F00287CA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Objective-C Playgrounds";
+			productName = "Objective-C Playgrounds";
+			productReference = FD80E2711A5C2D8F00287CA9 /* Objective-C Playgrounds.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD80E2891A5C2D8F00287CA9 /* Objective-C PlaygroundsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD80E2971A5C2D8F00287CA9 /* Build configuration list for PBXNativeTarget "Objective-C PlaygroundsTests" */;
+			buildPhases = (
+				FD80E2861A5C2D8F00287CA9 /* Sources */,
+				FD80E2871A5C2D8F00287CA9 /* Frameworks */,
+				FD80E2881A5C2D8F00287CA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD80E28C1A5C2D8F00287CA9 /* PBXTargetDependency */,
+			);
+			name = "Objective-C PlaygroundsTests";
+			productName = "Objective-C PlaygroundsTests";
+			productReference = FD80E28A1A5C2D8F00287CA9 /* Objective-C PlaygroundsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD80E2691A5C2D8F00287CA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Rose-Hulman";
+				TargetAttributes = {
+					FD80E2701A5C2D8F00287CA9 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					FD80E2891A5C2D8F00287CA9 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = FD80E2701A5C2D8F00287CA9;
+					};
+				};
+			};
+			buildConfigurationList = FD80E26C1A5C2D8F00287CA9 /* Build configuration list for PBXProject "Objective-C Playgrounds" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD80E2681A5C2D8F00287CA9;
+			productRefGroup = FD80E2721A5C2D8F00287CA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD80E2701A5C2D8F00287CA9 /* Objective-C Playgrounds */,
+				FD80E2891A5C2D8F00287CA9 /* Objective-C PlaygroundsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD80E26F1A5C2D8F00287CA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD80E2801A5C2D8F00287CA9 /* Main.storyboard in Resources */,
+				FD80E2851A5C2D8F00287CA9 /* LaunchScreen.xib in Resources */,
+				FD80E2821A5C2D8F00287CA9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD80E2881A5C2D8F00287CA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD80E26D1A5C2D8F00287CA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD80E27D1A5C2D8F00287CA9 /* ViewController.m in Sources */,
+				FD80E2AD1A5C42CC00287CA9 /* Classes.m in Sources */,
+				FD80E2B31A5C470500287CA9 /* Enums.m in Sources */,
+				FD80E2A11A5C2DD700287CA9 /* Collections.m in Sources */,
+				FD80E27A1A5C2D8F00287CA9 /* AppDelegate.m in Sources */,
+				FD80E2A41A5C2DE800287CA9 /* Functions.m in Sources */,
+				FD80E2771A5C2D8F00287CA9 /* main.m in Sources */,
+				FD80E29E1A5C2DC900287CA9 /* Variables.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD80E2861A5C2D8F00287CA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD80E2911A5C2D8F00287CA9 /* Objective_C_PlaygroundsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD80E28C1A5C2D8F00287CA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD80E2701A5C2D8F00287CA9 /* Objective-C Playgrounds */;
+			targetProxy = FD80E28B1A5C2D8F00287CA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD80E27E1A5C2D8F00287CA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD80E27F1A5C2D8F00287CA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD80E2831A5C2D8F00287CA9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD80E2841A5C2D8F00287CA9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD80E2921A5C2D8F00287CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD80E2931A5C2D8F00287CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD80E2951A5C2D8F00287CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Objective-C Playgrounds/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD80E2961A5C2D8F00287CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Objective-C Playgrounds/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FD80E2981A5C2D8F00287CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Objective-C PlaygroundsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Objective-C Playgrounds.app/Objective-C Playgrounds";
+			};
+			name = Debug;
+		};
+		FD80E2991A5C2D8F00287CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Objective-C PlaygroundsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Objective-C Playgrounds.app/Objective-C Playgrounds";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD80E26C1A5C2D8F00287CA9 /* Build configuration list for PBXProject "Objective-C Playgrounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD80E2921A5C2D8F00287CA9 /* Debug */,
+				FD80E2931A5C2D8F00287CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD80E2941A5C2D8F00287CA9 /* Build configuration list for PBXNativeTarget "Objective-C Playgrounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD80E2951A5C2D8F00287CA9 /* Debug */,
+				FD80E2961A5C2D8F00287CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD80E2971A5C2D8F00287CA9 /* Build configuration list for PBXNativeTarget "Objective-C PlaygroundsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD80E2981A5C2D8F00287CA9 /* Debug */,
+				FD80E2991A5C2D8F00287CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD80E2691A5C2D8F00287CA9 /* Project object */;
+}

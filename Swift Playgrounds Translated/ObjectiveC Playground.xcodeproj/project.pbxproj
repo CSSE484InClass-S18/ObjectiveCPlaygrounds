@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD157FD21A3414B300D3B973 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD157FD11A3414B300D3B973 /* main.m */; };
+		FD157FD51A3414B300D3B973 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD157FD41A3414B300D3B973 /* AppDelegate.m */; };
+		FD157FD81A3414B300D3B973 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD157FD71A3414B300D3B973 /* ViewController.m */; };
+		FD157FDB1A3414B300D3B973 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD157FD91A3414B300D3B973 /* Main.storyboard */; };
+		FD157FDD1A3414B300D3B973 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD157FDC1A3414B300D3B973 /* Images.xcassets */; };
+		FD157FE01A3414B300D3B973 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD157FDE1A3414B300D3B973 /* LaunchScreen.xib */; };
+		FD157FEC1A3414B400D3B973 /* ObjectiveC_PlaygroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD157FEB1A3414B400D3B973 /* ObjectiveC_PlaygroundTests.m */; };
+		FD157FF81A34153600D3B973 /* Basics.m in Sources */ = {isa = PBXBuildFile; fileRef = FD157FF71A34153600D3B973 /* Basics.m */; };
+		FD157FFB1A34191700D3B973 /* Optionals.m in Sources */ = {isa = PBXBuildFile; fileRef = FD157FFA1A34191700D3B973 /* Optionals.m */; };
+		FD157FFE1A341B6800D3B973 /* Collections.m in Sources */ = {isa = PBXBuildFile; fileRef = FD157FFD1A341B6800D3B973 /* Collections.m */; };
+		FD1F4D991A34E5C900F5793B /* Functions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1F4D981A34E5C900F5793B /* Functions.m */; };
+		FDC726E31A5B96EA00558A68 /* Strings.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC726E21A5B96EA00558A68 /* Strings.m */; };
+		FDC726E61A5B9C4200558A68 /* Closures.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC726E51A5B9C4200558A68 /* Closures.m */; };
+		FDC726E91A5BA14F00558A68 /* Enums.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC726E81A5BA14F00558A68 /* Enums.m */; };
+		FDC726EC1A5BA3D500558A68 /* Classes.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC726EB1A5BA3D500558A68 /* Classes.m */; };
+		FDC726EF1A5BA50E00558A68 /* BankAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC726EE1A5BA50E00558A68 /* BankAccount.m */; };
+		FDC726F21A5BA64D00558A68 /* AtmBankAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC726F11A5BA64D00558A68 /* AtmBankAccount.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD157FE61A3414B300D3B973 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD157FC41A3414B300D3B973 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD157FCB1A3414B300D3B973;
+			remoteInfo = "ObjectiveC Playground";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD157FCC1A3414B300D3B973 /* ObjectiveC Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ObjectiveC Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD157FD01A3414B300D3B973 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD157FD11A3414B300D3B973 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD157FD31A3414B300D3B973 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD157FD41A3414B300D3B973 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD157FD61A3414B300D3B973 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FD157FD71A3414B300D3B973 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD157FDA1A3414B300D3B973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD157FDC1A3414B300D3B973 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FD157FDF1A3414B300D3B973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FD157FE51A3414B300D3B973 /* ObjectiveC PlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ObjectiveC PlaygroundTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD157FEA1A3414B400D3B973 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD157FEB1A3414B400D3B973 /* ObjectiveC_PlaygroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveC_PlaygroundTests.m; sourceTree = "<group>"; };
+		FD157FF61A34153600D3B973 /* Basics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Basics.h; sourceTree = "<group>"; };
+		FD157FF71A34153600D3B973 /* Basics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Basics.m; sourceTree = "<group>"; };
+		FD157FF91A34191700D3B973 /* Optionals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Optionals.h; sourceTree = "<group>"; };
+		FD157FFA1A34191700D3B973 /* Optionals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Optionals.m; sourceTree = "<group>"; };
+		FD157FFC1A341B6800D3B973 /* Collections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Collections.h; sourceTree = "<group>"; };
+		FD157FFD1A341B6800D3B973 /* Collections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Collections.m; sourceTree = "<group>"; };
+		FD1F4D971A34E5C900F5793B /* Functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Functions.h; sourceTree = "<group>"; };
+		FD1F4D981A34E5C900F5793B /* Functions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Functions.m; sourceTree = "<group>"; };
+		FDC726E11A5B96EA00558A68 /* Strings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Strings.h; sourceTree = "<group>"; };
+		FDC726E21A5B96EA00558A68 /* Strings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Strings.m; sourceTree = "<group>"; };
+		FDC726E41A5B9C4200558A68 /* Closures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Closures.h; sourceTree = "<group>"; };
+		FDC726E51A5B9C4200558A68 /* Closures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Closures.m; sourceTree = "<group>"; };
+		FDC726E71A5BA14F00558A68 /* Enums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enums.h; sourceTree = "<group>"; };
+		FDC726E81A5BA14F00558A68 /* Enums.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Enums.m; sourceTree = "<group>"; };
+		FDC726EA1A5BA3D500558A68 /* Classes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Classes.h; sourceTree = "<group>"; };
+		FDC726EB1A5BA3D500558A68 /* Classes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Classes.m; sourceTree = "<group>"; };
+		FDC726ED1A5BA50E00558A68 /* BankAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankAccount.h; sourceTree = "<group>"; };
+		FDC726EE1A5BA50E00558A68 /* BankAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankAccount.m; sourceTree = "<group>"; };
+		FDC726F01A5BA64D00558A68 /* AtmBankAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtmBankAccount.h; sourceTree = "<group>"; };
+		FDC726F11A5BA64D00558A68 /* AtmBankAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AtmBankAccount.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD157FC91A3414B300D3B973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD157FE21A3414B300D3B973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD157FC31A3414B300D3B973 = {
+			isa = PBXGroup;
+			children = (
+				FD157FCE1A3414B300D3B973 /* ObjectiveC Playground */,
+				FD157FE81A3414B300D3B973 /* ObjectiveC PlaygroundTests */,
+				FD157FCD1A3414B300D3B973 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD157FCD1A3414B300D3B973 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD157FCC1A3414B300D3B973 /* ObjectiveC Playground.app */,
+				FD157FE51A3414B300D3B973 /* ObjectiveC PlaygroundTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD157FCE1A3414B300D3B973 /* ObjectiveC Playground */ = {
+			isa = PBXGroup;
+			children = (
+				FDC726F31A5BA97400558A68 /* Classes */,
+				FD157FF51A3414F000D3B973 /* Objective-C Playgrounds */,
+				FD157FD31A3414B300D3B973 /* AppDelegate.h */,
+				FD157FD41A3414B300D3B973 /* AppDelegate.m */,
+				FD157FD61A3414B300D3B973 /* ViewController.h */,
+				FD157FD71A3414B300D3B973 /* ViewController.m */,
+				FD157FD91A3414B300D3B973 /* Main.storyboard */,
+				FD157FDC1A3414B300D3B973 /* Images.xcassets */,
+				FD157FDE1A3414B300D3B973 /* LaunchScreen.xib */,
+				FD157FCF1A3414B300D3B973 /* Supporting Files */,
+			);
+			path = "ObjectiveC Playground";
+			sourceTree = "<group>";
+		};
+		FD157FCF1A3414B300D3B973 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD157FD01A3414B300D3B973 /* Info.plist */,
+				FD157FD11A3414B300D3B973 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD157FE81A3414B300D3B973 /* ObjectiveC PlaygroundTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD157FEB1A3414B400D3B973 /* ObjectiveC_PlaygroundTests.m */,
+				FD157FE91A3414B400D3B973 /* Supporting Files */,
+			);
+			path = "ObjectiveC PlaygroundTests";
+			sourceTree = "<group>";
+		};
+		FD157FE91A3414B400D3B973 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD157FEA1A3414B400D3B973 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD157FF51A3414F000D3B973 /* Objective-C Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				FD157FF61A34153600D3B973 /* Basics.h */,
+				FD157FF71A34153600D3B973 /* Basics.m */,
+				FD157FF91A34191700D3B973 /* Optionals.h */,
+				FD157FFA1A34191700D3B973 /* Optionals.m */,
+				FD157FFC1A341B6800D3B973 /* Collections.h */,
+				FD157FFD1A341B6800D3B973 /* Collections.m */,
+				FD1F4D971A34E5C900F5793B /* Functions.h */,
+				FD1F4D981A34E5C900F5793B /* Functions.m */,
+				FDC726E11A5B96EA00558A68 /* Strings.h */,
+				FDC726E21A5B96EA00558A68 /* Strings.m */,
+				FDC726E41A5B9C4200558A68 /* Closures.h */,
+				FDC726E51A5B9C4200558A68 /* Closures.m */,
+				FDC726E71A5BA14F00558A68 /* Enums.h */,
+				FDC726E81A5BA14F00558A68 /* Enums.m */,
+				FDC726EA1A5BA3D500558A68 /* Classes.h */,
+				FDC726EB1A5BA3D500558A68 /* Classes.m */,
+			);
+			name = "Objective-C Playgrounds";
+			sourceTree = "<group>";
+		};
+		FDC726F31A5BA97400558A68 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FDC726ED1A5BA50E00558A68 /* BankAccount.h */,
+				FDC726EE1A5BA50E00558A68 /* BankAccount.m */,
+				FDC726F01A5BA64D00558A68 /* AtmBankAccount.h */,
+				FDC726F11A5BA64D00558A68 /* AtmBankAccount.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD157FCB1A3414B300D3B973 /* ObjectiveC Playground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD157FEF1A3414B400D3B973 /* Build configuration list for PBXNativeTarget "ObjectiveC Playground" */;
+			buildPhases = (
+				FD157FC81A3414B300D3B973 /* Sources */,
+				FD157FC91A3414B300D3B973 /* Frameworks */,
+				FD157FCA1A3414B300D3B973 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ObjectiveC Playground";
+			productName = "ObjectiveC Playground";
+			productReference = FD157FCC1A3414B300D3B973 /* ObjectiveC Playground.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD157FE41A3414B300D3B973 /* ObjectiveC PlaygroundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD157FF21A3414B400D3B973 /* Build configuration list for PBXNativeTarget "ObjectiveC PlaygroundTests" */;
+			buildPhases = (
+				FD157FE11A3414B300D3B973 /* Sources */,
+				FD157FE21A3414B300D3B973 /* Frameworks */,
+				FD157FE31A3414B300D3B973 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD157FE71A3414B300D3B973 /* PBXTargetDependency */,
+			);
+			name = "ObjectiveC PlaygroundTests";
+			productName = "ObjectiveC PlaygroundTests";
+			productReference = FD157FE51A3414B300D3B973 /* ObjectiveC PlaygroundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD157FC41A3414B300D3B973 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Rose-Hulman";
+				TargetAttributes = {
+					FD157FCB1A3414B300D3B973 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					FD157FE41A3414B300D3B973 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = FD157FCB1A3414B300D3B973;
+					};
+				};
+			};
+			buildConfigurationList = FD157FC71A3414B300D3B973 /* Build configuration list for PBXProject "ObjectiveC Playground" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD157FC31A3414B300D3B973;
+			productRefGroup = FD157FCD1A3414B300D3B973 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD157FCB1A3414B300D3B973 /* ObjectiveC Playground */,
+				FD157FE41A3414B300D3B973 /* ObjectiveC PlaygroundTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD157FCA1A3414B300D3B973 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD157FDB1A3414B300D3B973 /* Main.storyboard in Resources */,
+				FD157FE01A3414B300D3B973 /* LaunchScreen.xib in Resources */,
+				FD157FDD1A3414B300D3B973 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD157FE31A3414B300D3B973 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD157FC81A3414B300D3B973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD157FFB1A34191700D3B973 /* Optionals.m in Sources */,
+				FDC726EF1A5BA50E00558A68 /* BankAccount.m in Sources */,
+				FD157FFE1A341B6800D3B973 /* Collections.m in Sources */,
+				FD157FF81A34153600D3B973 /* Basics.m in Sources */,
+				FD157FD81A3414B300D3B973 /* ViewController.m in Sources */,
+				FDC726EC1A5BA3D500558A68 /* Classes.m in Sources */,
+				FDC726E91A5BA14F00558A68 /* Enums.m in Sources */,
+				FD157FD51A3414B300D3B973 /* AppDelegate.m in Sources */,
+				FD157FD21A3414B300D3B973 /* main.m in Sources */,
+				FDC726F21A5BA64D00558A68 /* AtmBankAccount.m in Sources */,
+				FDC726E31A5B96EA00558A68 /* Strings.m in Sources */,
+				FD1F4D991A34E5C900F5793B /* Functions.m in Sources */,
+				FDC726E61A5B9C4200558A68 /* Closures.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD157FE11A3414B300D3B973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD157FEC1A3414B400D3B973 /* ObjectiveC_PlaygroundTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD157FE71A3414B300D3B973 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD157FCB1A3414B300D3B973 /* ObjectiveC Playground */;
+			targetProxy = FD157FE61A3414B300D3B973 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD157FD91A3414B300D3B973 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD157FDA1A3414B300D3B973 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD157FDE1A3414B300D3B973 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD157FDF1A3414B300D3B973 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD157FED1A3414B400D3B973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD157FEE1A3414B400D3B973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD157FF01A3414B400D3B973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ObjectiveC Playground/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD157FF11A3414B400D3B973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ObjectiveC Playground/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FD157FF31A3414B400D3B973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ObjectiveC PlaygroundTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ObjectiveC Playground.app/ObjectiveC Playground";
+			};
+			name = Debug;
+		};
+		FD157FF41A3414B400D3B973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ObjectiveC PlaygroundTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ObjectiveC Playground.app/ObjectiveC Playground";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD157FC71A3414B300D3B973 /* Build configuration list for PBXProject "ObjectiveC Playground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD157FED1A3414B400D3B973 /* Debug */,
+				FD157FEE1A3414B400D3B973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD157FEF1A3414B400D3B973 /* Build configuration list for PBXNativeTarget "ObjectiveC Playground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD157FF01A3414B400D3B973 /* Debug */,
+				FD157FF11A3414B400D3B973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD157FF21A3414B400D3B973 /* Build configuration list for PBXNativeTarget "ObjectiveC PlaygroundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD157FF31A3414B400D3B973 /* Debug */,
+				FD157FF41A3414B400D3B973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD157FC41A3414B300D3B973 /* Project object */;
+}
