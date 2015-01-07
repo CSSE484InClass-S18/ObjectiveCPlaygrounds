@@ -15,6 +15,7 @@
     myVariable = 50;
     const int myConstant = 42;
     //myConstant = 50;
+    NSLog(@"myVariable = %d myConstant = %d", myVariable, myConstant);
 
 
     // via C Array
