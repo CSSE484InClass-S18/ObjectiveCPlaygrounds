@@ -13,9 +13,6 @@
 
 + (void) run {
 
-    // To use an enum you just use C code.
-    // Objective-C is a superset of C so just use C enums.
-
     // Basic enum
 
 

@@ -43,7 +43,7 @@
 //    NSLog(@"sortedAges = %@", sortedAges);
 
 
-    // Dictionarys
+    // Dictionaries
 //    NSDictionary* elements = @{@"H": @"Hydrogen", @"He": @"Helium", @"Li": @"Lithium", @"Be": @"Beryllium", @"B": @"Boron", @"C": @"Carbon", @"N": @"Nitrogen", @"O": @"Oxygen"};
 //    NSLog(@"element['C'] = %@", [elements objectForKey:@"C"]);
 //    NSLog(@"element['Z'] = %@", [elements objectForKey:@"Z"]);

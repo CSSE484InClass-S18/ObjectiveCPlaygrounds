@@ -20,7 +20,7 @@
 
     NSLog(@"--- Variables ---");
 
-    // Primatives
+    // Primitives
 
 
 
@@ -33,7 +33,7 @@
 
 
 
-    // Sneaky primatives (note the LACK of a * symbol)
+    // Sneaky primitives (note the LACK of a * symbol)
 
 
 

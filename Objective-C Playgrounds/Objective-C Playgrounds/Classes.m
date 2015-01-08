@@ -18,8 +18,6 @@
 
 
 
-    //    NSLog(@"daveAccount \nName: %@  balance: $%.2f", daveAccount.name, daveAccount.balance);
-
 
     // Subclass
 
@@ -28,7 +26,6 @@
 
 
 
-    //    NSLog(@"bobAccount \nName: %@  balance: $%.2f", bobAccount.name, bobAccount.balance);
 }
 
 @end
