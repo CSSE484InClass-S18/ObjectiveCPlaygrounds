@@ -11,8 +11,6 @@
 @implementation Collections
 
 + (void) run {
-
-
     // Many objects are immutable.  If you want a mutable version that is a subclass.
     // Example: NSArray would be kinda like -> let arrayName : [AnyObject]?
     // If you want a mutable array use NSMutableArray*
@@ -58,7 +56,7 @@
     NSLog(@"sortedTeenagers = %@", sortedTeenagers);
 
 
-    // Dictionarys
+    // Dictionaries
     NSDictionary* elements = @{@"H": @"Hydrogen", @"He": @"Helium", @"Li": @"Lithium", @"Be": @"Beryllium", @"B": @"Boron", @"C": @"Carbon", @"N": @"Nitrogen", @"O": @"Oxygen"};
     NSLog(@"element['C'] = %@", [elements objectForKey:@"C"]);
     NSLog(@"element['Z'] = %@", [elements objectForKey:@"Z"]);

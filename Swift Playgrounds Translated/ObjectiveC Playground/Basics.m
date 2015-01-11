@@ -33,8 +33,8 @@
     // via Objective-C Array
     NSArray* scores = @[@75, @52, @93, @87, @41, @83];
     int totalPassing = 0;
-    for (int i = 0; i < scores.count; i++) {
-        if (((NSNumber*)scores[i]).intValue > 60) {
+    for (NSNumber* score in scores) {
+        if (score.intValue > 60) {
             totalPassing++;
         }
     }
