@@ -23,12 +23,14 @@ class ViewController: UIViewController {
     @IBAction func pressedNewGame(sender: AnyObject) {
         game = TicTacToeGame()
         updateView()
+        println(game)
     }
 
     @IBAction func pressedGameButton(sender: AnyObject) {
         let button = sender as UIButton
         game.pressedSquare(button.tag)
         updateView()
+        println(game)
     }
 
     override func viewDidLoad() {
@@ -41,6 +43,7 @@ class ViewController: UIViewController {
         gameBoardImageView.image = self.traitCollection.horizontalSizeClass == UIUserInterfaceSizeClass.Compact ? UIImage(named: "iPhone_board.png") : UIImage(named: "iPad_board.png")
 
         updateView()
+        println(game)
     }
 
     func updateView() {
