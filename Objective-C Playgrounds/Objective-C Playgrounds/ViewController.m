@@ -18,9 +18,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [Variables run];
+//    [Variables run];
 //    [Enums run];
-//    [Collections run];
+    [Collections run];
 //    [Functions run];
 //    [Classes run];
 }
