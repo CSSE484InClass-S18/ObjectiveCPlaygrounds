@@ -11,5 +11,11 @@
 @interface Functions : NSObject
 
 + (void) run;
++ (NSString*) fortuneCookie;
+- (NSString*) magic8Ball;
+- (NSString*) superheroName:(NSString*) name;
++ (double) calculateVolumeForLength:(double) length
+                           forWidth:(double) width
+                          forHeight:(double) height;
 
 @end
